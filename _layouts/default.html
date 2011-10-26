@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta content='text/html;charset=UTF-8' http-equiv='Content-Type'>
+    <title>barc &mdash; {{ page.title }}</title>
+    <style type='text/css'>
+      @import 'css/default.css';
+      @import 'css/syntax.css';
+    </style>
+    <style media='print' type='text/css'>
+      @import 'css/print.css';
+    </style>
+    <meta content='Home of the Birmingham Autonomous Robot Club' name='subject'>
+    <link href='images/favicon.png' rel='shortcut icon'>
+  </head>
+  <body>
+    <div id='wrap'>
+      <div id='header'>
+        <!-- <a href='http://buildr.apache.org/' title="The build system that doesn't suck"><img alt='buildr' src='{{root_url}}/images/barc.png'></a> -->
+        <!-- <div class='tagline'>The build system that doesn't suck</div> -->
+      </div>
+      <div id='pages'>
+        <ol class='toc'>
+          <li>Start Here
+            <ol class="toc">
+              <li><a href='index.html'>Home</a></li>
+              <li><a href='quick_start.html'>Quick Start</a></li>
+              <li><a href='robots.html'>Our Robots</a></li>
+            </ol>
+          </li>
+          <li>Get Involved
+            <ol class="toc">
+              <li><a href='contributing.html'>Meetings</a></li>
+              <li><a href='mailing_list.html'>Mailing List</a></li>
+              <li><a href='projects.html'>Projects</a></li>
+              <li><a href='pitfalls.html'>Common Pitfalls</a></li>
+              <li><a href='downloads.html'>Downloads</a></li>
+              <li><a href='issues.html'>Issues/Bugs</a></li>
+            </ol>
+          </li>
+      </div>
+      <div id='content'>
+        <h1 id='{{ page.title | downcase | replace(' ', '_') }}'>{{ page.title }}</h1>
+        {{ content | toc }}
+      </div>
+      <div id='footer'>Wonderful theme from <a href="http://buildr.apache.org/mailing_lists.html">Buildr</a></div>
+    </div>
+  </body>
+</html>
