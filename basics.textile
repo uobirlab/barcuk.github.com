@@ -1,0 +1,16 @@
+---
+layout: default
+title: Basics
+---
+
+h3. Meetings
+
+We meet once a week. This term, we're meeting on Wednesdays at 2pm in the robot lab. These meetings are to show progress on (and brag about) the robots during the past week.
+
+h3. Mailing List
+
+This is where most of the online communication happens. You can join by signing up at "https://mailman.cs.bham.ac.uk/mailman/listinfo/robot-club":https://mailman.cs.bham.ac.uk/mailman/listinfo/robot-club
+
+h3. IRC
+
+IRC is internet chat from the olden times. We work with computers a lot and we like to hold onto these relics from the past. We're on the @#barc@ channel on the @freenode@ network. If you need any help setting up IRC, just ask on the mailing list.

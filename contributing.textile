@@ -1,4 +1,6 @@
 ---
 layout: default
-title: Contributing
+title: Meetings
 ---
+
+We meet once a week. This term, we're meeting on Wednesdays at 2pm in the robot lab.

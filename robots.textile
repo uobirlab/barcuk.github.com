@@ -2,3 +2,19 @@
 layout: default
 title: Our Robots
 ---
+
+h3. Aldebaran Nao
+
+...
+
+h3. Tortoisebot
+
+...
+
+h3. B21r
+
+...
+
+h3. Pioneer 1 & Pioneer 3DX
+
+...

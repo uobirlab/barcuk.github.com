@@ -1,0 +1,10 @@
+---
+layout: default
+title: About us!
+---
+
+We're a big mix from the academic spectrum. Our club is composed of almost equal parts undergraudate, postgraduate, and researchers.
+
+h3. Current Members
+
+
