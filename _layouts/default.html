@@ -37,12 +37,29 @@
               <li><a href='issues.html'>Issues/Bugs</a></li>
             </ol>
           </li>
+        </ol>
       </div>
+
       <div id='content'>
         <h1 id='{{ page.title | downcase | replace(' ', '_') }}'>{{ page.title }}</h1>
+
         {{ content | toc }}
+
       </div>
+
       <div id='footer'>Wonderful theme from <a href="http://buildr.apache.org/mailing_lists.html">Buildr</a></div>
     </div>
+
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-3059795-4");
+      pageTracker._trackPageview();
+    </script>
+    <!-- Google Analytics end -->
   </body>
 </html>
