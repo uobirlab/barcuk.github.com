@@ -129,7 +129,7 @@ Now you have to edit some files for `rosjava` to work correctly.
 First, change into the new Braitenberg directory and then edit the
 `Makefile`:
 
-````
+```
 hacker@barc:~/ros$ cd braitenberg/
 hacker@barc:~/ros/braitenberg$ gedit Makefile &
 ```
@@ -151,44 +151,33 @@ Now paste this into the file:
 ```xml
   <?xml version="1.0" encoding="UTF-8"?>
   <project name="." default="default">
-
     <property file="ros.properties" />
     <property name="build" location="build" />
-
     <property name="dist" location="dist" />
     <property name="build" location="build" />
     <property name="src" location="src" />
-
     <path id="classpath">
       <pathelement path="${ros.compile.classpath}" />
     </path>
-
     <echo message="${toString:classpath}" />
-
     <target name="default" depends="init, compile" />
-
     <target name="init">
       <fail unless="ros.compile.classpath" message="ros.properties is missing.  Please type 'rosmake' first "/>
       <mkdir dir="${build}" />
       <mkdir dir="${dist}" />
     </target>
-
     <target name="compile" depends="init">
-
       <javac destdir="${build}">
         <classpath refid="classpath" />
         <src path="${src}" />
       </javac>
     </target>
-
     <target name="clean">
       <delete dir="${build}" />
       <delete dir="${dist}" />
     </target>
-
     <!-- required entry point -->
     <target name="test" />
-
   </project>
 ```
 
@@ -230,22 +219,17 @@ named `BraitnebergMover`. Now make the class implement
 create the empty implementations of the required methods. Your class
 should look like this:
 
-```java
+```
   package barc;
-
   import org.ros.node.NodeConfiguration;
   import org.ros.node.NodeMain;
-
   public class BraitenbergMover implements NodeMain {
-
       public void main(NodeConfiguration nc) throws Exception {
           throw new UnsupportedOperationException("Not supported yet.");
       }
-
       public void shutdown() {
           throw new UnsupportedOperationException("Not supported yet.");
       }
-
   }
 ```
 
@@ -266,14 +250,12 @@ Finally, you need to implement the `shutdown` method. This is simply
 involves calling `node.shutdown()`. When you're done, the changed code
 should like this:
 
-```java
+```
   private Node node;
   private Publisher pub;
-
   public void main(NodeConfiguration nc) throws Exception {
       node = new DefaultNodeFactory().newNode("braitenberg", nc);
       pub = node.newPublisher("cmd_vel", "geometry_msgs/Twist");
-
       node.newSubscriber("base_scan", "sensor_msgs/LaserScan", new MessageListener<LaserScan>() {
           @Override
           public void onNewMessage(LaserScan scan) {
@@ -281,7 +263,6 @@ should like this:
           }
       });
   }
-
   public void shutdown() {
       node.shutdown();
   }
@@ -299,7 +280,6 @@ the robot going along. The method looks like this:
 ```java
   private void move(LaserScan scan) {
           double left = 0.0, right = 0.0;
-  
           // get space on each side
           for (int i = 0; i < scan.ranges.length; i++) {
               double range = (scan.ranges[i] == 0.0) ? scan.range_max : scan.ranges[i];
@@ -309,7 +289,6 @@ the robot going along. The method looks like this:
                   right += range;
               }
           }
-  
           // publish a twist command to move towards the area of greatest space
           Twist move = new Twist();
           move.linear.x = 0.1;
@@ -323,7 +302,6 @@ So, in the end, your code should look like this:
 
 ```java
   package barc;
-  
   import org.ros.internal.node.DefaultNode;
   import org.ros.message.MessageListener;
   import org.ros.message.geometry_msgs.Twist;
@@ -333,28 +311,21 @@ So, in the end, your code should look like this:
   import org.ros.node.NodeConfiguration;
   import org.ros.node.NodeMain;
   import org.ros.node.topic.Publisher;
-  
   public class BraitenbergMover implements NodeMain {
-  
       private Node node;
       private Publisher<Twist> pub;
-  
       public void main(NodeConfiguration nc) throws Exception {
           node = new DefaultNodeFactory().newNode("braitenberg", nc);
           pub = node.newPublisher("cmd_vel", "geometry_msgs/Twist");
-  
           node.newSubscriber("base_scan", "sensor_msgs/LaserScan", new MessageListener<LaserScan>() {
-  
                   @Override
                       public void onNewMessage(LaserScan scan) {
                       move(scan);
                   }
               });
       }
-  
       private void move(LaserScan scan) {
           double left = 0.0, right = 0.0;
-  
           // get space on each side
           for (int i = 0; i < scan.ranges.length; i++) {
               double range = (scan.ranges[i] == 0.0) ? scan.range_max : scan.ranges[i];
@@ -364,7 +335,6 @@ So, in the end, your code should look like this:
                   right += range;
               }
           }
-  
           // publish a twist command to move towards the area of greatest space
           Twist move = new Twist();
           move.linear.x = 0.1;
@@ -372,7 +342,6 @@ So, in the end, your code should look like this:
           pub.publish(move);
           System.out.println("Published: " + move);
       }
-  
       public void shutdown() {
           node.shutdown();
       }
