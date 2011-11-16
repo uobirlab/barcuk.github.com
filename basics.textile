@@ -7,6 +7,12 @@ h3. Meetings
 
 We meet once a week. This term, we're meeting on Wednesdays at 2pm in the robot lab. These meetings are to show progress on (and brag about) the robots during the past week.
 
+h3. Wiki
+
+We maitain a wiki on "github":https://github.com/barcuk/barc/wiki. The
+legacy wiki can be found on the "IRLab
+wiki":http://codex.cs.bham.ac.uk/irlab/index.php/Robot_Club
+
 h3. Mailing List
 
 This is where most of the online communication happens. You can join by signing up at "https://mailman.cs.bham.ac.uk/mailman/listinfo/robot-club":https://mailman.cs.bham.ac.uk/mailman/listinfo/robot-club

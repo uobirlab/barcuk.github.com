@@ -328,4 +328,4 @@ hacker@barc:~/ros_workspace/braitenberg$ rosrun rosjava_bootstrap run.py braiten
 
 And with any luck, you should not see your robot moving about its environment and avoiding obstacles. You can experiment to find better ways to move!
 
-If you have any trouble that you cannot resolve yourself (i.e., Google), please post to the "mailing list":/mailing_list.html! There are a number of us there who can help.
+If you have any trouble that you cannot resolve yourself (i.e., Google), please post to the "mailing list":/basics.html! There are a number of us there who can help.

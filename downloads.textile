@@ -2,3 +2,10 @@
 layout: default
 title: Downloads
 ---
+
+This page will maintain a list of helpful downloads.
+
+h3. Virtualbox Disk Image (~7gb)
+
+* "Link one":http://jeremiahvia.com/barc/Ubuntu%2010.10.vdi
+* "Link two":http://www.cs.bham.ac.uk/research/projects/poplog/robot-club/Ubuntu-10.10.vdi

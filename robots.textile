@@ -5,16 +5,20 @@ title: Our Robots
 
 h3. Aldebaran Nao
 
-...
+Information for running the robot in real life and simulation can be
+found in the "Nao":https://github.com/barcuk/nao repository.    
 
 h3. Tortoisebot
 
-...
+Information for running the robot in real life and simulation can be
+found in the "Tortoisebot":https://github.com/barcuk/tortoisebot repository.    
 
-h3. B21r
+h3. B21
 
-...
+Information for running the robot in real life and simulation can be
+found in the "B21":https://github.com/barcuk/b21 repository.
 
 h3. Pioneer 1 & Pioneer 3DX
 
-...
+Information for running the robot in real life and simulation can be
+found in the "Pioneer":https://github.com/barcuk/pioneer repository.    

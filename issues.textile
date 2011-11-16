@@ -2,3 +2,8 @@
 layout: default
 title: Issues/Bugs
 ---
+
+h3. Issues
+
+We have an "issue tracker":https://github.com/barcuk/barc/issues which
+can be used to list bugs and requests for improvements.
