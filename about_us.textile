@@ -17,5 +17,5 @@ h3. Current Members
 * Peter Hammonds
 * Paul Hufton
 * Jack Hargreaves
-* Catherine Harris
+* "Catherine Harris":http://cs.bham.ac.uk/~cah652
 * Jay Young
