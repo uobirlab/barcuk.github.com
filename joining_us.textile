@@ -12,6 +12,6 @@ Birmingham Autonomous Robot Club (or BARC) is a club for people interested worki
 * associated with the University of Birmingham in some way (you don't have to be in the School of Computer Science)
 
 
-For more information, either come to the Research Robot Lab (LG40) in the School of Computer Science at 1pm on a Wednesday, or make contact with BARC via one of the options on the "Basics":http://barcuk.github.com/basics.html page.
+For more information, either come to the Research Robot Lab (LG40) in the School of Computer Science at 1pm on a Wednesday, or make contact with BARC via one of the options on the "Basics":http://barcuk.github.com/basics.html page (signing up then posting to the mailing list is probably your best bet for a quick response).
 
 
