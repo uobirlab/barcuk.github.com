@@ -5,7 +5,7 @@ title: Basics
 
 h3. Meetings
 
-We meet once a week. This term, we're meeting on Wednesdays at 2pm in the robot lab. These meetings are to show progress on (and brag about) the robots during the past week.
+We meet once a week. This term, we're meeting on Wednesdays at 1pm in the research robot lab. These meetings are to show progress the robots during the past week and chat about the problems we're having.
 
 h3. Wiki
 
