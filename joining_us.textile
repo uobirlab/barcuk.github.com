@@ -1,0 +1,17 @@
+---
+layout: default
+title: Joining BARC
+---
+
+Birmingham Autonomous Robot Club (or BARC) is a club for people interested working on autonomous, intelligent robots in their spare time. As part of the club you get to work with some advanced robots (including our Aldebaran Nao humanoid robot and B21 large mobile platform) alongside students and other members of the School of Computer Science (from postgrads to lecturers). We are currently looking to recruit some new members for the club, and would welcome you if you are:
+
+* willing to regularly work on programming robots in your own time
+
+* a competent programmer in Java or C++ (you don't have to be amazing, just willing to code and learn)
+
+* associated with the University of Birmingham in some way (you don't have to be in the School of Computer Science)
+
+
+For more information, either come to the Research Robot Lab (LG40) in the School of Computer Science at 1pm on a Wednesday, or make contact with BARC via one of the options on the "Basics":http://barcuk.github.com/basics.html page.
+
+
