@@ -21,3 +21,4 @@ h3. Current Members
 * Jay Young
 * Daniel Cannon
 * Anton Georgiev
+* "Oliver Quirke":https://github.com/qu1rk3y
