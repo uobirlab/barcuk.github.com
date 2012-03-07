@@ -19,3 +19,4 @@ h3. Current Members
 * Jack Hargreaves
 * "Catherine Harris":http://cs.bham.ac.uk/~cah652
 * Jay Young
+* Daniel Cannon
