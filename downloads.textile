@@ -8,4 +8,3 @@ This page will maintain a list of helpful downloads.
 h3. Virtualbox Disk Image (~7gb)
 
 * "Link one":http://jeremiahvia.com/barc/barc.vdi
-* "Link two (old)":http://www.cs.bham.ac.uk/research/projects/poplog/robot-club/Ubuntu-10.10.vdi
