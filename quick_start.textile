@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Quick Start
+title: Getting Started
 ---
 
-
-h1. New Member Tasks
 
 New members are expected to complete the following tasks:
 
