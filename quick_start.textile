@@ -4,7 +4,7 @@ title: Getting Started
 ---
 
 
-New members are expected to complete the following tasks:
+New members are expected to complete the following tasks. Feel free to ask in a meeting about how to complete each one and why you should do it.
 
 * Join the "BARC organisation on GitHub":https://github.com/barcuk/barc
 
