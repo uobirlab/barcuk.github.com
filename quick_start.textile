@@ -3,6 +3,27 @@ layout: default
 title: Quick Start
 ---
 
+
+h1. New Member Tasks
+
+New members are expected to complete the following tasks:
+
+* Join the "BARC organisation on GitHub":https://github.com/barcuk/barc
+
+* Create a new milestone in the issue tracker, plus issues under this milestones to reflect the following additional tasks.
+
+* Add your name to the "About Us":about_us.html page by checking out the BARC repository and pushing back the relevant change.
+
+* Get ROS installed and running by working through the tutorials on "ROS.org":http://ros.org, particularly aiming for the "Stage tutorial":http://www.ros.org/wiki/stage/Tutorials/SimulatingOneRobot which shows you how to run a robot in simulation.
+
+*  Write a simple Braitenberg machine that avoids walls using a simulated robot.
+
+*  Put this in a real robot. 
+
+
+
+h1. Tutorial
+
 This tutorial will take you through the steps of up a virtualized operating system for programming with ROS and writing a basic controller which moves a wheeled robot about its environment.
 
 h2. Set up Virtualbox 

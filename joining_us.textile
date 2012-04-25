@@ -15,16 +15,3 @@ Birmingham Autonomous Robot Club (or BARC) is a club for people interested worki
 For more information, either come to the Research Robot Lab (LG40) in the School of Computer Science at 1pm on a Wednesday, or make contact with BARC via one of the options on the "Basics":http://barcuk.github.com/basics.html page (signing up then posting to the mailing list is probably your best bet for a quick response).
 
 
-# New Member Tasks
-
-New members are expected to complete the following tasks:
-
-* Join the "BARC organisation on GitHub":https://github.com/barcuk/barc
-
-* Create a new milestone in the issue tracker, plus issues under this milestones to reflect the following additional tasks.
-
-* Add your name to the "About Us":about_us.html page by checking out the BARC repository and pushing back the relevant change.
-
-* Get ROS installed and running by working through the tutorials on "ROS.org":http://ros.org, particularly aiming for the "Stage tutorial":http://www.ros.org/wiki/stage/Tutorials/SimulatingOneRobot which shows you how to run a robot in simulation.
-
-*  Write a simple Braitenberg machine that avoids walls.
