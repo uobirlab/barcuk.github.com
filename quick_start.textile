@@ -3,7 +3,17 @@ layout: default
 title: Getting Started
 ---
 
- GO HERE AND FOLLOW THIS TUTORIAL: http://docs.rosjava.googlecode.com/hg/rosjava_core/html/index.html
+GO HERE AND FOLLOW THIS TUTORIAL: http://docs.rosjava.googlecode.com/hg/rosjava_core/html/index.html
+
+Yo, the version of gradle in the repo is all messed up with rosjava. Here is how to install the necessary version to make it compile:
+
+* Download the current version from the "gradle homepage":http://gradle.org
+
+* Unzip the downloaded file and put it in "/usr/local"
+
+* In your .bashrc file, set GRADLE_HOME=/usr/local/gradle-1.0-rc-3 and set your PATH=$GRADLE_HOME/bin:$PATH
+
+* Source the file and you're good to go
 
 
 
