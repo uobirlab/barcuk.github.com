@@ -3,6 +3,11 @@ layout: default
 title: Getting Started
 ---
 
+ GO HERE AND FOLLOW THIS TUTORIAL: http://docs.rosjava.googlecode.com/hg/rosjava_core/html/index.html
+
+
+
+h2. OUT OF DATE
 
 New members are expected to complete the following tasks. Feel free to ask in a meeting about how to complete each one and why you should do it.
 
