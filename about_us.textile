@@ -22,3 +22,4 @@ h3. Current Members
 * Daniel Cannon
 * Anton Georgiev
 * "Oliver Quirke":https://github.com/qu1rk3y
+* Martin Dimitrov
