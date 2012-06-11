@@ -8,9 +8,7 @@ We're a big mix from the academic spectrum. Our club is composed of almost equal
 h3. Current Members
 
 * "Nick Hawes":http://www.cs.bham.ac.uk/~nah/
-* "Marc Hanheide":http://www.cs.bham.ac.uk/~hanheidm/
 * "Jeremiah Via":http://jeremiahvia.com
-* "Juhan Ernits":http://www.cs.bham.ac.uk/~ernitsj/
 * Chris Burbridge
 * Graham Horn
 * Peter Brewer
@@ -23,3 +21,8 @@ h3. Current Members
 * Anton Georgiev
 * "Oliver Quirke":https://github.com/qu1rk3y
 * Martin Dimitrov
+
+h3. Past Members
+
+* "Marc Hanheide":http://www.hanheide.net/
+* "Juhan Ernits":http://www.cs.bham.ac.uk/~ernitsj/
