@@ -1,3 +1,8 @@
+---
+layout: default
+title: Tutorial List
+---
+
 Tutorial List
 =============
 

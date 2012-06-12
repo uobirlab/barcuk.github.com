@@ -1,3 +1,8 @@
+---
+layout: default
+title: Using Intellij IDEA
+---
+
 Using Intellij IDEA
 ===================
 
