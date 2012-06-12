@@ -3,9 +3,6 @@ layout: default
 title: Using Intellij IDEA
 ---
 
-Using Intellij IDEA
-===================
-
 This tutorial will show you how to setup Intellij IDEA for awesome
 rosjava hacking. Note that `$` is the command line prompt.
 
