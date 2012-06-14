@@ -3,4 +3,6 @@ layout: default
 title: Tutorial List
 ---
 
--  [Using Intellij IDEA](using_idea.html)
+- [Managing the Super-Repo](super_repo.html)
+- [Using Intellij IDEA](using_idea.html)
+- [Working on the Website](website.html)
