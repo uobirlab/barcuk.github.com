@@ -21,6 +21,7 @@ h3. Current Members
 * Anton Georgiev
 * "Oliver Quirke":https://github.com/qu1rk3y
 * Martin Dimitrov
+* Joel Hoskin
 
 h3. Past Members
 
