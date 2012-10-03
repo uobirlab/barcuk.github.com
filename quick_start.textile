@@ -15,13 +15,14 @@ Yo, the version of gradle in the repo is all messed up with rosjava. Here is how
 
 * Source the file and you're good to go
 
+* You can also run "sudo apt-get install gradle" on terminal  
 
 
-h2. OUT OF DATE
+
 
 New members are expected to complete the following tasks. Feel free to ask in a meeting about how to complete each one and why you should do it.
 
-* Join the "BARC organisation on GitHub":https://github.com/barcuk/barc
+* Join the "BARC organisation on GitHub":https://github.com/organizations/barcuk
 
 * Create a new milestone in the issue tracker, plus issues under this milestones to reflect the following additional tasks.
 
