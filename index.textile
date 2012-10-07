@@ -3,4 +3,4 @@ layout: default
 title: Birmingham Autonomous Robot Club
 ---
 
-Home of the Birmingham Autonomous Robot Club!
+Welcome to the website of the Birmingham Autonomous Robot Club (BARC). We are a student-led club based in the Intelligent Robotics Lab, in the School of Computer Science at the University of Birmingham. We develop and run demos of [intelligent robots](robots.html), mostly using [ROS](http://ros.org) under [Ubuntu](http://ubuntu.org).
