@@ -21,6 +21,7 @@ The members of BARC come from all parts of the academic spectrum. Our club is co
 * [Oliver Quirke](https://github.com/qu1rk3y)
 * Martin Dimitrov
 * Joel Hoskin
+* Sean Bastable
 
 ## Past Members
 
