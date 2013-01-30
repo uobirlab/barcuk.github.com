@@ -7,7 +7,7 @@ Before you can work on BARC projects, you must get yourself up to speed with the
 
 ## Install Ubuntu
 
-We do most of our work on [Ubuntu](http://ubuntu.com), so you need to get yourself a working install of this. We currently use version 12.04. There are a number of options for you to get Ubuntu. These include:
+We do most of our work on [Ubuntu](http://ubuntu.com) (although Mac OS X can be used too), so you need to get yourself a working install of this. We currently use version 12.04. There are a number of options for you to get Ubuntu. These include:
 
  * Download and install [a VirtualBox virtual machine of Ubuntu 12.04 with ROS already installed](http://nootrix.com/2012/09/virtualizing-ros/). This is certainly the quickest way to get started, and it is the least stressful (as VirtualBox will run on any OS). 
 
@@ -21,7 +21,7 @@ If you are new Linux, or unfamiliar with using the command line, it would be goo
 
 ## Install ROS
 
-All our robots are controlled using ROS. Once you have Ubuntu installed you should therefore install ROS (unless you used the virtual machine above). We are currently using the ROS version `fuerte`, and [the install instructions are here](http://www.ros.org/wiki/fuerte/Installation/Ubuntu). 
+All our robots are controlled using ROS. Once you have Ubuntu installed you should therefore install ROS Fuerte (unless you used the virtual machine above). We are currently using the ROS version `fuerte`, and [the Ubuntu install instructions are here](http://www.ros.org/wiki/fuerte/Installation/Ubuntu). The [Mac OS X install instructions are here](http://www.ros.org/wiki/fuerte/Installation/OSX/Homebrew/Source).
 
 If you plan to work in Java, then you must also [install rosjava_core](http://docs.rosjava.googlecode.com/hg/rosjava_core/html/installing.html).
 
