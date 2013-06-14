@@ -28,3 +28,4 @@ The members of BARC come from all parts of the academic spectrum. Our club is co
 * [Marc Hanheide](http://www.hanheide.net/)
 * [Juhan Ernits](http://www.cs.bham.ac.uk/~ernitsj/)
 * [Jeremiah Via](http://jeremiahvia.com)
+* [Michal Staniaszek](http://michalstaniaszek.com)
