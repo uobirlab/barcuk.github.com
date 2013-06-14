@@ -31,7 +31,9 @@ If you have problems, ask a BARC member for help (e.g. via [the Facebook group](
 
 ## Join GitHub and our organisation
 
-We host our code on GitHub, and therefore manage our code using the Git version control system. If Git is unfamiliar to you, read this [Git basics guide](http://git-scm.com/book/en/Getting-Started-Git-Basics). If you are new to GitHub, read [this getting started guide](https://help.github.com/articles/set-up-git). Once you are registered on, and familiar with, GitHub, ask to join [the BARC organisation on GitHub](https://github.com/barcuk). Once you are in the organisation, demonstrate your GitHub mastery by adding your name to the [members list](./members.html) by cloning [the website repo](https://github.com/barcuk/barcuk.github.com), editing the appropriate file, then pushing back the changes. Alternatively fork the repo, make the edit to your fork, then issue a pull request for the change.
+We host our code on GitHub, and therefore manage our code using the Git version control system. If Git is unfamiliar to you, read this [Git basics guide](http://git-scm.com/book/en/Getting-Started-Git-Basics). If you are new to GitHub, read [this getting started guide](https://help.github.com/articles/set-up-git). Once you are registered on, and familiar with, GitHub, ask to join [the BARC organisation on GitHub](https://github.com/barcuk). Once you are in the organisation, demonstrate your GitHub mastery by adding your name to the [members list](/members) by cloning [the website repo](https://github.com/barcuk/barcuk.github.com), editing the appropriate file, then pushing back the changes. Alternatively fork the repo, make the edit to your fork, then issue a pull request for the change.
+
+The website runs on GitHub pages, which uses [Jekyll](jekyllrb.com) to generate a static site whenever commits are pushed to the master branch. If you are making changes you should ensure that the site looks correct and builds without issues before submitting a pull request or pushing to the repo. You can find a tutorial on how to do this [here](/startup/jekyll.html).
 
 ## Code a Basic Behaviour
 
