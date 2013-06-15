@@ -23,10 +23,6 @@ When processed into HTML looks like:
 
 `This is a <a href='www.ros.org'>link</a> to the ROS homepage.`
 
-Which looks like this when it's on the site.
-
-This is a [link](www.ros.org) to the ROS homepage.
-
 ### Internal Links
 For internal URLS, like the Robots or Members pages, the syntax is exactly the
 same, but you instead provide a path to the page you want to link to based on
@@ -39,9 +35,7 @@ This gives us
 
 `This is a <a href='/startup/jekyll.html'>link</a> to the Jekyll tutorial.`
 
-In HTML, and looks like this on the site.
-
-This is a [link](/startup/jekyll.html) to the Jekyll tutorial.
+in HTML.
 
 To refer to the homepage, use `[Home](/)`.
 
@@ -61,8 +55,20 @@ and second larges headers (HTML `h1` and `h2`) can be defined in two ways.
 
 	## And so is this
 
+Which looks like
+
+	<h1 id='this_is_a_h1'>This is a h1</h1>
+
+	<h1 id='this_is_also_a_h1'>This is also a h1</h1>
+
+	<h2 id='this_is_a_h2'>This is a h2</h2>
+
+	<h2 id='and_so_is_this'>And so is this</h2>
+
+when converted to HTML.
+
 Each additional `#` you add gives a lower level header, up to a maximum of 6
-levels.
+levels. 
 
 ## Lists
 
@@ -78,6 +84,16 @@ after the list.
 	- is an
 	- unordered list
 
+In HTML, this looks like
+
+	<ul>
+	<li>This</li>
+
+	<li>is an</li>
+
+	<li>unordered list</li>
+	</ul>
+
 ### Ordered Lists
 
 Ordered lists are specified by the use of numbers and periods before each line.
@@ -86,12 +102,27 @@ Ordered lists are specified by the use of numbers and periods before each line.
 	2. is an
 	3. ordered list
 
+In HTML, this looks like
+
+	<ol>
+	<li>This</li>
+
+	<li>is an</li>
+
+	<li>ordered list</li>
+	</ol>
+
 ## Code
 
 There are two ways in which you can define a code block. For inline code like
-`x = y`, you wrap text in backtick quotes or grave accents (\`).
+`x = y`, you wrap text in backtick quotes or grave accents (\`), for which the equivalent HTML is `<code>x = y</code>`.
 
-You can specify code blocks by indenting each line by 4 spaces or a single tab.
+You can specify code blocks by indenting each line by 4 spaces or a single tab. Code blocks look like
+
+	<pre><code> Preformatted code
+		goes in
+		here
+	</pre></code>
 
 ## More
 
